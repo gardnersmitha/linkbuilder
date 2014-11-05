@@ -1,8 +1,20 @@
+#mainframe{
+	width:480px;
+}
+
+#url-builder{
+	margin-top:40px;
+}
+
 .output{
 	margin-top: 1em;
-	display: none;
+	xdisplay: none;
+	background:aliceblue;
+	border-radius:4px;
+	border:1px solid #428BCA;
+	padding:0 20px 20px 20px;
 }
 
 #output-url{
-	xoverflow: hidden;
+	overflow: hidden;
 }
