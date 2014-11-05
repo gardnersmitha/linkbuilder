@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="">
+	<head>
+		<title>Title Page</title>
+		<meta charset="UTF-8">
+		<meta name=description content="">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap CSS -->
+		<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<h1 class="text-center">URL Builder</h1>
+			<form action="#" method="POST" role="form" id="url-builder">
+				
+				<legend>Build me a trackable URL, plebe!</legend>
+			
+				<div class="form-group">
+					<label for="">Original URL</label>
+					<input type="text" class="form-control" id="url" placeholder="http://aspenjournalism.com/my-article">
+				</div>
+
+				<div class="form-group">
+					<label for="input" class="control-label">What desk?</label>
+					<div class="">
+						<select name="desk" id="desk" class="form-control">
+							<option value="Water%20Desk">Water Desk</option>
+							<option value="Land%20Desk">Land Desk</option>
+							<option value="City%20Desk">City Desk</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="input" class="control-label">Where you wanna share this bad boy?</label>
+					<div class="">
+						<select name="source" id="source" class="form-control">
+							<option value="Twitter">Twitter</option>
+							<option value="Facebook">Facebook</option>
+							<option value="Tumblr">Tumblr</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label for="keyword" class="">What's a good keyword for this article?</label>
+					<input type="text" name="keyword" id="keyword" class="form-control" placeholder="">
+				</div>
+			
+				<button type="submit" class="btn btn-primary">Build My URL</button>
+			</form>
+
+			<div class="output">
+				<h3>Here's your URL, bro</h3>
+			    <div class="input-group">
+			    	<input type="text" id="output-url" class="form-control">
+					<span class="input-group-btn copy">
+				    	<button class="btn btn-default" type="button">Copy Me</button>
+				    </span>
+				</div>
+			</div>
+
+		</div>
+
+
+		<!-- jQuery -->
+		<script src="//code.jquery.com/jquery.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+		<!-- My scripts -->
+		<script src="main.js"></script>
+	</body>
+</html>
